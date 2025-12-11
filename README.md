@@ -93,3 +93,7 @@ uv run python test/replay_vllm_azure2024.py \
 - `--no-cache` mode is not implemented for live replay; use the default cached path.
 - Token counting is approximate when the server aggregates multiple tokens per SSE line.
 - RX/TX are application-layer sizes (JSON request, SSE response), not TCP-level bytes.
+
+## License
+
+This project is licensed under the BSD 3-Clause License - see the [LICENSE](LICENSE) file for details.
