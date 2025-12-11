@@ -97,3 +97,17 @@ uv run python test/replay_vllm_azure2024.py \
 ## License
 
 This project is licensed under the BSD 3-Clause License - see the [LICENSE](LICENSE) file for details.
+
+### Third-party components
+
+This project uses or references the following components with their own licenses:
+
+| Component | License | Note |
+|-----------|---------|------|
+| vLLM | Apache-2.0 | LLM inference engine |
+| Prometheus | Apache-2.0 | Monitoring system |
+| Grafana | AGPL-3.0 | Visualization (used as separate service) |
+| DCGM Exporter | Apache-2.0 | GPU metrics exporter |
+| Meta Llama models | [Llama Community License](https://llama.meta.com/llama3/license/) | Requires acceptance of Meta's license |
+
+**Note:** Azure LLM Inference Trace data used in examples may have its own usage terms. Please check the [dataset source](https://github.com/Azure/AzurePublicDataset) for licensing details.
